@@ -1,5 +1,4 @@
 import React from "react";
-import "./Projects.css"; // optional extra styling (we’ll make it below)
 
 const Projects = () => {
   const projectList = [
