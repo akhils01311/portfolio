@@ -3,12 +3,14 @@ import Header from "./Header";
 import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Project from "./Project";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <About />
+      <Project/>
       <Projects />
       <Contact />
       <footer className="footer">
