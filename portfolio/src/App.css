@@ -104,6 +104,29 @@ button:hover {
 }
 
 
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.skills-list li {
+  background-color: #273c75;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
+
+.skills-list li:hover {
+  transform: scale(1.1);
+}
+
+
 .footer {
   text-align: center;
   background: #273c75;
